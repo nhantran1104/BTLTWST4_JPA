@@ -1,0 +1,14 @@
+package vn.iotstar.entity;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Data
+@Entity
+@Table(name = "categories")
+@NamedQuery(name = "Category.findAll", query = "SELECT c FROM Category c")
+
+public class Category {
+
+}
